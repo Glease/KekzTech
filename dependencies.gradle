@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    compile group: 'com.github.GTNewHorizons' name:'GT5-Unofficial' version: '5.09.40.84' classifier: 'dev'
+    compile group: 'com.github.GTNewHorizons' name:'GT5-Unofficial' version: '59.09.34.04' classifier: 'dev'
     compile 'com.github.GTNewHorizons:TecTech:5.0.6:dev'
     compile 'com.github.GTNewHorizons:bartworks:0.5.43:dev'
     compile 'com.github.GTNewHorizons:StructureLib:1.0.16:dev'
