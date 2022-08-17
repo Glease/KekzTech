@@ -4,10 +4,6 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
-registries:
-  maven-gtnh:
-    type: maven-repository
-    url: http://jenkins.usrv.eu:8081/nexus/content/repositories/public/
 updates:
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/" # Location of package manifests
