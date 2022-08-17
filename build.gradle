@@ -294,7 +294,7 @@ repositories {
 dependencies {
     if(usesMixins.toBoolean()) {
         annotationProcessor('org.ow2.asm:asm-debug-all:5.0.3')
-        annotationProcessor('com.google.guava:guava:24.1.1-jre')
+        annotationProcessor('com.google.guava:guava:31.1-jre')
         annotationProcessor('com.google.code.gson:gson:2.8.6')
         annotationProcessor('org.spongepowered:mixin:0.8-SNAPSHOT')
         // using 0.8 to workaround a issue in 0.7 which fails mixin application
